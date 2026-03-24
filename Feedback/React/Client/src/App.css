@@ -1,0 +1,54 @@
+h1{
+  text-align: center;
+}
+section{
+  margin-left: 20px;
+  text-align: left;
+}
+.Student-info {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.Student-info .form-group {
+  width: 400px;
+}
+.Student-info label {
+  display: inline-block;
+  width: 150px;   
+  margin-bottom: 10px;
+}
+.Student-info input {
+  width: 220px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.Student-info b {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+#spacer{
+  margin: 40PX;
+}
+.submit-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+
+.submit-btn:active {
+  transform: scale(0.98);
+}
